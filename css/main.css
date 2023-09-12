@@ -4,7 +4,14 @@ body {
 
 h2 {
     color: brown;
+    text-transform: uppercase;
 }
 p {
     font-size: 35px;
 }
+p:first-letter {
+    font-size: 1.2em;
+    font-weight: 700;
+    color: red;
+}
+/* Добавил оформление заглавной буквы абзаца 1*/
